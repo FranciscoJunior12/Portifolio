@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -55,19 +54,20 @@
 
         <div id="div-text">
 
-            <h2>About<span> Me</span></h2>
-            <h5>Web Developer</h5>
-            <p>Hello, my name is Francisco Junior. I am an IT student, currently studying for the third year of college
+            <h2 class="init-hidden">About<span> Me</span></h2>
+            <h5 class="init-hidden">Web Developer</h5>
+            <p class="init-hidden">Hello, my name is Francisco Junior. I am an IT student, currently studying for the
+                third year of college
                 at Eduardo
                 Mondlane University, Mozambique. I'm a beginner web developer.</p>
 
-            <p style="margin-bottom: 55px;">I have developed websites (LandingPage)
+            <p class="init-hidden" style="margin-bottom: 55px;">I have developed websites (LandingPage)
                 using HTML,
                 CSS and JS. I also worked a bit with python for the backend (django framework). Looking for
                 my first
                 professional experience.</p>
 
-            <a href="#">DOWNLOAD MY CV</a>
+            <a class="botao init-hidden" href="#">DOWNLOAD MY CV</a>
         </div>
 
 
@@ -77,27 +77,27 @@
     <hr class="separador">
     <section id="skills">
 
-        <h2>My Skills</h2>
-        <p>technologies that i work with</p>
+        <h2 class="init-hidden">My Skills</h2>
+        <p class="init-hidden">technologies that i work with</p>
 
         <div class="container">
-            <div class="card">
+            <div class="card init-hidden">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
             </div>
-            <div class="card">
+            <div class="card init-hidden">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
             </div>
-            <div class="card">
+            <div class="card  init-hidden">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
             </div>
-            <div class="card">
+            <div class="card  init-hidden">
                 <img style="width: 90%;"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" />
             </div>
-            <div class="card">
+            <div class="card  init-hidden">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
             </div>
-            <div class="card">
+            <div class="card  init-hidden">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
             </div>
 
@@ -105,10 +105,97 @@
 
     </section>
 
-    <!-- <hr class="separador"> -->
-   
+    <hr class="separador">
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="container">
+
+            <div class="card-projects border init-hidden">
+                <div class="propriedades img">
+
+                </div>
+                <div class="texto">
+                    <h1 class="init-hidden">One Page Site</h1>
+
+                    <ul class="init-hidden">
+                        <li style="color:#c53862">Html</li>
+                        <li style="color:#3E54A3">Css</li>
+                    </ul>
+                    <p class="init-hidden">This project is a website to learn html and css, completely responsive and
+                        semantic. I developed
+                        it during a course.</p>
+
+                </div>
+                <div class="btn init-hidden"><a class="botao " href="#">Live view</a></div>
+            </div>
 
 
+            <div class="card-projects border margin init-hidden">
+                <div class="propriedades img2">
+
+                </div>
+                <div class="texto">
+                    <h1>Social Proof Section</h1>
+
+                    <ul>
+                        <li class="init-hidden" style="color:#c53862">Html</li>
+                        <li class="hidden-hidden" style="color:#3E54A3">Css</li>
+                    </ul>
+                    <p class="init-hidden">This project is a website to learn html and css, completely responsive and
+                        semantic. I
+                        developed
+                        it during a course.</p>
+
+                </div>
+                <div class="btn init-hidden"><a class="botao" href="#">Live view</a></div>
+            </div>
+
+            <div class="card-projects border margin init-hidden">
+                <div class="propriedades img3">
+
+                </div>
+                <div class="texto">
+                    <h1 class="init-hidden">Rock Paper Scissors</h1>
+
+                    <ul class="init-hidden">
+                        <li style="color:#c53862">Html</li>
+                        <li style="color:#3E54A3">Css</li>
+                        <li style="color:#CF6390">Js</li>
+                    </ul>
+                    <p class="init-hidden">This project is a website to learn html and css, completely responsive and
+                        semantic. I
+                        developed
+                        it during a course.</p>
+
+                </div>
+                <div class="btn init-hidden"><a class="botao"
+                        href="https://franciscojunior12.github.io/Pedra-Papel-Tesoura/" target="_blank">Live view</a>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <h6>Francisco <span>Júnior</span></h6>
+        <p>For more information about me, contact me on my social networks.</p>
+        <div id="redes-socias">
+            <a href="#"><img src="assets/img/whatsapp.png" alt="Icone de whatsapp"></a>
+            <a href="#"><img src="assets/img/facebook.png" alt="Icone de facebook"></a>
+            <a href="#"><img src="assets/img/instagram.png" alt="Icone de instagram"></a>
+            <a href="#"><img src="assets/img/twitter.png" alt="Icone de twitter"></a>
+        </div>
+    </footer>
+
+    <a href="#main" id="topo"><img src="assets/img/topo.png" alt="topo do site"></a>
     <script src="assets/Js/script.js"></script>
 </body>
 
