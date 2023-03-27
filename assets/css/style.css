@@ -16,6 +16,10 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -214,6 +218,322 @@ h3 {
     border: 1px solid #2b1a51;
 }
 
+
+
+
+
+#about-me {
+    background-color: #201B2C;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+#div-img img {
+    border-radius: 5px;
+
+}
+
+#div-img {
+    border-radius: 5px;
+
+}
+
+
+#div-text {
+    margin-bottom: 30px;
+}
+
+#div-text h2 {
+
+    font-size: 40px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#div-text h5 {
+
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+#div-text p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    line-height: 18px;
+    /* font-weight:normal; */
+
+
+}
+
+
+
+.botao {
+
+    text-decoration: none;
+    padding: 15px 35px;
+    color: #f9004B;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255, 0.05);
+    border-radius: 5px;
+    transition: background .6s;
+}
+
+.botao:hover {
+
+    background-color: transparent;
+    border: 1px solid #343538;
+}
+
+
+
+.card {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 30px;
+    background-color: #212428;
+    border-radius: 10px;
+    width: 60%;
+    height: 100px;
+    margin-bottom: 20px;
+    transition: background .8s;
+    background-color: transparent;
+    border: 1px solid #343538;
+
+
+}
+
+#skills {
+
+    padding: 50px 20px;
+    background: #201B2C;
+
+}
+
+.card img {
+    width: 50%;
+
+}
+
+.card:hover {
+
+    background-color: #212428;
+    border: none;
+}
+
+#skills h2 {
+
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+}
+
+#skills p {
+    color: #f9004B;
+    font-size: 10px;
+    letter-spacing: 1.05px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ #projects {
+
+    
+     background: #201B2C;
+     padding: 15px 15px 50px 15px;
+
+
+ }
+
+ #projects h2 {
+     font-size: 40px;
+     text-align: center;
+     line-height: 50px;
+     margin-bottom: 20px;
+
+ }
+
+ #projects ul {
+     display: flex;
+     gap: 10px;
+     margin-bottom: 10px;
+ }
+
+ #projects ul li {
+     font-size: 18px;
+ }
+
+ .containe {
+
+   
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+   
+ }
+
+ .card-projects {
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: #1c1628;
+     border: 1px solid #343538;
+
+ }
+
+
+
+ .border {
+
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+
+
+ .card-projects h1 {
+     font-size: 24px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+ }
+
+
+ .img {
+     background: url(../img/onepage2.png);
+ }
+
+ .img2 {
+     background: url(../img/now.jpg);
+ }
+
+ .img3 {
+     background: url(../img/pedrapapeltesoura1.png);
+     /* background-position: t; */
+ }
+
+ .texto {
+
+     margin-bottom: 20px;
+     padding-left: 20px;
+ }
+
+ .btn {
+
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 25px;
+ }
+
+ .propriedades {
+
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     background-position: center;
+     background-size: cover;
+     height: 250px;
+     box-sizing: border-box;
+     transition: transform .5s;
+
+ }
+
+
+
+
+footer {
+
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+h6 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+#redes-socias {
+
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+
+}
+
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:414px) {
     h1 {
         font-size: 40px;
@@ -309,55 +629,34 @@ portrait------------------------------------------------------------------------
 
     #about-me {
         height: 100vh;
-        background-color: #201B2C;
         padding: 30px 80px;
-        display: flex;
-        align-items: center;
+        flex-direction: row;
         gap: 150px;
 
 
     }
 
 
-    #div-img img {
-        border-radius: 5px;
-        /* height: 410px; */
-        /* mix-blend-mode: mul.tiply; */
-
-    }
-
     #div-img {
         border-radius: 5px;
-        /* background-color: #4B2B60; */
-        /* filter: brightness(100%); */
+
     }
 
 
+    #div-text {
+        margin-bottom: 0;
+    }
 
     #div-text h2 {
 
         font-size: 60px;
-        line-height: 15px;
-        margin-bottom: 30px;
+        text-align: start;
 
     }
 
     #div-text h5 {
-
-        font-size: 18px;
         margin-bottom: 15px;
     }
-
-    #div-text p {
-        font-size: 16px;
-        letter-spacing: 1px;
-        margin-bottom: 15px;
-        line-height: 18px;
-        /* font-weight:normal; */
-
-
-    }
-
 
 
     .botao {
@@ -382,11 +681,7 @@ portrait------------------------------------------------------------------------
     .card {
 
         padding: 35px 30px;
-        background-color: #212428;
-        border-radius: 10px;
         width: 15%;
-        height: 100px;
-        margin-bottom: 40px;
         margin-right: 40px;
         transition: background .8s;
         display: flex;
@@ -399,59 +694,23 @@ portrait------------------------------------------------------------------------
 
     #skills {
 
-        /* margin: 60px 0px; */
-
-        /* background-color:  #201B2C; */
-
-        padding: 90px 50px;
-        height: 75vh;
-        background: #201B2C;
+        padding: 60px 40px;
+      
 
     }
-
-    .card img {
-        width: 50%;
-
-    }
-
-    .card:hover {
-
-        background-color: #212428;
-        border: none;
-    }
-
-    #skills h2 {
-
-        font-size: 50px;
-        text-align: center;
-        line-height: 50px;
-        margin-bottom: 10px;
-
-    }
-
-    #skills p {
-        color: #f9004B;
-        font-size: 10px;
-        letter-spacing: 1.05px;
-        text-align: center;
-        margin-bottom: 60px;
-        text-transform: uppercase;
-        font-family: 'Poppins', sans-serif;
-
-    }
+   
 
     .container {
-        display: flex;
-        /* flex-direction: row; */
-        /* align-items: center; */
+
+        flex-wrap: nowrap;
 
     }
 
 
     #projects {
 
-        height: 100vh;
-        background: #201B2C;
+    
+       
         padding: 50px 50px;
 
 
@@ -459,154 +718,93 @@ portrait------------------------------------------------------------------------
 
     #projects h2 {
         font-size: 50px;
-        text-align: center;
-        line-height: 50px;
-        margin-bottom: 20px;
 
     }
 
-    #projects ul {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 10px;
-    }
+  
 
-    #projects ul li {
-        font-size: 18px;
-    }
-
-    .container {
+    .containe {
 
         width: 100%;
-        /* flex-wrap: wrap-reverse; */
+        flex-wrap: nowrap;
     }
 
     .card-projects {
 
+        width: 31%;
+
+    }
+
+   
+
+  
+
+
+    
+
+   
+
+   
+
+
+
+    .init-hidden {
+
+        opacity: 0;
+        transition: opacity 3s linear;
+        /* visibility:  */
+    }
+
+    .init-hidden-off {
+
+        opacity: 1;
+
+    }
+
+
+
+
+
+    footer {
+
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background-color: #191919;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        width: 31%;
-        background-color: #1c1628;
-        /* height: 400px; */
-        border: 1px solid #343538;
-
     }
 
-    .margin {
-        margin-left: 50px;
-    }
+    footer p {
 
-    .border {
-
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-
-
-    .card-projects h1 {
-        font-size: 24px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-
-
-    .img {
-        background: url(../img/onepage2.png);
-    }
-
-    .img2 {
-        background: url(../img/now.jpg);
-    }
-    .img3 {
-        background: url(../img/pedrapapeltesoura1.png);
-        /* background-position: t; */
-    }
-
-    .texto {
-
-        margin-bottom: 20px;
-        padding-left: 20px;
-    }
-
-    .btn {
-
+        color: white;
+        font-size: 15px;
         text-align: center;
+    }
+
+    h6 {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+    }
+
+    #redes-socias {
+
+        display: flex;
+        gap: 8px;
         margin-top: 20px;
-        margin-bottom: 25px;
-    }
-
-    .propriedades {
-
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
-        background-position: center;
-        background-size: cover;
-        height: 250px;
-        box-sizing: border-box;
-
-        transition: transform .5s;
 
     }
 
-.init-hidden{
-
-    opacity: 0;
-    transition: opacity 3s linear;
-    /* visibility:  */
-}
-.init-hidden-off{
-
-    opacity: 1;
-   
-}
-
-
-
-
-
-footer {
-
-    position: relative;
-    width: 100%;
-    height: 250px;
-    background-color: #191919;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-footer p {
-
-    color: white;
-    font-size: 15px;
-    text-align: center;
-}
-
-h6 {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    padding-bottom: 20px;
-    letter-spacing: 2px;
-}
-
-#redes-socias {
-
-    display: flex;
-    gap: 8px;
-margin-top: 20px;
-
-}
-
-#topo {
-    position: fixed;
-    right: 10px;
-    bottom: 0px;
-}
+    #topo {
+        position: fixed;
+        right: 10px;
+        bottom: 0px;
+    }
 
 
 
