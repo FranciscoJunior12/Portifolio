@@ -2,7 +2,7 @@
 const botao = document.querySelector('#down-arrow');
 
 botao.addEventListener('click', () => {
-    window.scroll({ top: window.innerHeight, behavior: 'smooth' })
+    window.scroll({ top: window.innerHeight, behavior: 'smooth' }) ;
 })
 
 
@@ -43,7 +43,7 @@ Array.from(document.querySelectorAll('.init-hidden')).forEach(elemento => {
 
 // Efeito de digitação 
 
-var palavras = [" Web Developer", "Freelancer", "Design"];
+var palavras = [" Web Developer", "Freelancer"];
 var i = 0;
 var j = 0;
 var deletar = false;
@@ -98,6 +98,9 @@ setInterval(function () {
 }, 500);
 
 escrever();
+
+
+
 
 
 
