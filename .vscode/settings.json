@@ -36,5 +36,6 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
-  }
+  },
+  "liveServer.settings.port": 5502
 }
